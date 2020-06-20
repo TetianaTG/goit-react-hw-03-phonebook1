@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.buttonDelete {
+  display: block;
+  height: 30px;
+  width: 40px;
+  border-style: solid;
+  border-width: 0px 0px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-style: normal;
+  text-align: center;
+  text-overflow: ellipsis;
+  transition: all 200ms ease-in-out 0s;
+  white-space: nowrap;
+  font-family: 'Gotham Rounded A', 'Gotham Rounded B', Helvetica, Arial,
+    sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #19a7df;
+  border-color: #0fc8f7;
+  background-image: url(https://image.flaticon.com/icons/svg/1345/1345823.svg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buttonDelete:hover,
+.buttonDelete:focus,
+.buttonDelete:active {
+  background-color: #eb4848;
+  border-color: #e83131;
+}
